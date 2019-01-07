@@ -1,13 +1,22 @@
 package org.fasttrackit;
 
-public class Adopter {
+public class Rescuer {
 
     private String name;
     private double money;
 
-    public Adopter(String name, double money) {
+    public Rescuer(String name, double money) {
         this.name = name;
         this.money = money;
+    }
+
+    public void feedAnimal(Animal dog, AnimalFood pedigree){
+
+        System.out.println(name+" is feeding "+dog.getName()+" with "+pedigree.getName());
+    }
+
+    public void play(Animal dog, PlayingActivity play){
+        System.out.println(name+" is playing "+play.getName()+" with "+dog.getName());
     }
 
     public String getName() {
