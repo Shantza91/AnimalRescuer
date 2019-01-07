@@ -10,15 +10,15 @@ public class Animal {
     private String favoriteFood;
     private String favoritePlayingActivity;
 
-    public Animal(String name, int age, double health, double hunger, double mood, String favoriteFood, String favoritePlayingActivity) {
-        this.name = name;
-        this.age = age;
-        this.health = health;
-        this.hunger = hunger;
-        this.mood = mood;
-        this.favoriteFood = favoriteFood;
-        this.favoritePlayingActivity = favoritePlayingActivity;
-    }
+//    public Animal(String name, int age, double health, double hunger, double mood, String favoriteFood, String favoritePlayingActivity) {
+//        this.name = name;
+//        this.age = age;
+//        this.health = health;
+//        this.hunger = hunger;
+//        this.mood = mood;
+//        this.favoriteFood = favoriteFood;
+//        this.favoritePlayingActivity = favoritePlayingActivity;
+//    }
 
     public String getName() {
         return name;
