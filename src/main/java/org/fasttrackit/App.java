@@ -26,5 +26,8 @@ public class App
 
         Canin caine = new Canin("Max",3,9,7,5,"pedigree","fetch","labrador",true);
         Feline pisica = new Feline("Oscar",2,10,4,3,"wiskas","sleeping","siamese", false);
+
+        System.out.println("Numele cainelui este: "+caine.getName());
     }
+
 }
