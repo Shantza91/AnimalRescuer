@@ -24,5 +24,7 @@ public class App
         Doctor doctor = new Doctor("Henry", "vetrenerian");
         System.out.println("Doctor is:"+doctor.getName()+" he is a"+doctor.getDomain());
 
+        Canin caine = new Canin("Max",3,9,7,5,"pedigree","fetch","labrador",true);
+        Feline pisica = new Feline("Oscar",2,10,4,3,"wiskas","sleeping","siamese", false);
     }
 }
