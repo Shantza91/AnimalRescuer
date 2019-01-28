@@ -10,13 +10,21 @@ public class Rescuer {
         this.money = money;
     }
 
-    public void feedAnimal(Animal dog, AnimalFood pedigree){
+    public void feedAnimal(Animal dog, AnimalFood pedigree, double hunger){
 
         System.out.println(name+" is feeding "+dog.getName()+" with "+pedigree.getName());
+        if(dog.getHunger()!=0)
+            hunger--;
+        System.out.println("Dog hunger level is at "+hunger);
     }
 
-    public void play(Animal dog, PlayingActivity play){
+
+
+    public void play(Animal dog, PlayingActivity play, double hapinnesLevel){
         System.out.println(name+" is playing "+play.getName()+" with "+dog.getName());
+        if(hapinnesLevel>0)
+            hapinnesLevel++;
+        System.out.println("Happiness level is at "+hapinnesLevel);
     }
 
     public String getName() {
