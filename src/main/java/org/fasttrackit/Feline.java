@@ -11,6 +11,13 @@ public class Feline extends Animal {
         this.isMiauing = isMiauing;
     }
 
+    @Override
+    public String toString() {
+        return "Feline{" +
+                "isMiauing=" + isMiauing +
+                '}';
+    }
+
     public String getSpecies() {
         return species;
     }

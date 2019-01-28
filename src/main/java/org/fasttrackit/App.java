@@ -29,6 +29,9 @@ public class App
 
         rescuer.feedAnimal(dog, animalFood);
         rescuer.play(dog, activity);
+
+        caine.toString();
+        caine.spiritState(7);
     }
 
 }

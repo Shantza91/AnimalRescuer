@@ -20,6 +20,16 @@ public class Animal {
         this.favoritePlayingActivity = favoritePlayingActivity;
     }
 
+    public void spiritState(double mood){
+        if (mood >= 8)
+            System.out.println("Animal is in a good");
+        else if (mood > 4 && mood <8)
+            System.out.println("Animal is in a not bad mood");
+        else if (mood < 0 && mood >4)
+            System.out.println("Animal is in a bad mood");
+
+    }
+
     public String getName() {
         return name;
     }

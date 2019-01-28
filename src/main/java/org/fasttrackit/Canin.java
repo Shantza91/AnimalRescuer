@@ -11,6 +11,21 @@ public class Canin extends Animal {
         this.isBarking = isBarking;
     }
 
+    @Override
+    public void spiritState(double mood) {
+        if (species == "cat")
+            System.out.println("Cat is miauing");
+        else if(species == "dog")
+            System.out.println("Dog is barking");
+    }
+
+    @Override
+    public String toString() {
+        return "Canin{" +
+                "isBarking=" + isBarking +
+                '}';
+    }
+
     public String getSpecies() {
         return species;
     }
