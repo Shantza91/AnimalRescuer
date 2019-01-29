@@ -27,10 +27,12 @@ public class App
 
         System.out.println("Numele cainelui este: "+caine.getName());
 
-        rescuer.feedAnimal(dog, animalFood, 7);
+//        rescuer.feedAnimal(dog, animalFood, 6);
+//        rescuer.play(dog, activity);
+        rescuer.feedAnimal(dog, animalFood, 4, 4);
         rescuer.play(dog, activity, 3);
 
-        caine.toString();
+//        caine.toString();
         caine.spiritState(7);
     }
 
