@@ -13,16 +13,19 @@ public class App
         Canin caine = new Canin("Max",3,9,7,5,"pedigree","fetch","labrador",true);
         Feline pisica = new Feline("Oscar",2,10,4,3,"wiskas","sleeping","siamese", false);
 
-        System.out.println("Numele cainelui este: "+caine.getName());
+//        System.out.println("Numele cainelui este: "+caine.getName());
 
 //        rescuer.feedAnimal(dog, animalFood, 6);
 //        rescuer.play(dog, activity);
-        rescuer.feedAnimal(dog, animalFood, 4, 4);
-        rescuer.play(dog, activity, 3);
+//        rescuer.feedAnimal(dog, animalFood, 4, 4);
+//        rescuer.play(dog, activity, 3);
 
 //        caine.toString();
-        dog.spiritState(7);
-        cat.spiritState(4);
+//        dog.spiritState(7);
+//        cat.spiritState(4);
+
+        Game game = new Game();
+        game.start();
     }
 
 }

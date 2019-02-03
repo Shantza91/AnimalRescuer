@@ -18,6 +18,10 @@ public class AnimalFood {
         this.stock = stock;
     }
 
+    public AnimalFood(String name) {
+        this.name = name;
+    }
+
     public String getName() {
         return name;
     }
