@@ -5,6 +5,7 @@ public class App
     public static void main( String[] args )
     {
         Animal dog = new Animal("Rex", 5, 9, 6, 10, "dog food", "fetch");
+        Animal cat = new Animal("Felix", 2, 8, 4, 7, "cat food", "playing");
 //        System.out.println("Animal name is "+dog.getName()+ " has "+ dog.getAge()+" years, "+dog.getHealth()+" health,"+dog.getHunger()+
 //                " hunger,"+dog.getMood()+" mood,"+dog.getFavoriteFood()+" favorite food,"+dog.getFavoritePlayingActivity()+
 //                "favorite playing activity");
@@ -33,7 +34,8 @@ public class App
         rescuer.play(dog, activity, 3);
 
 //        caine.toString();
-        caine.spiritState(7);
+        dog.spiritState(7);
+        cat.spiritState(4);
     }
 
 }
